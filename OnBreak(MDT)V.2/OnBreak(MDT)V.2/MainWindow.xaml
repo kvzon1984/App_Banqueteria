@@ -1,0 +1,60 @@
+﻿<Window x:Class="OnBreak_MDT_V._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnBreak_MDT_V._2"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="On Break System" Height="600" Width="1080" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" FontFamily="Yu Gothic UI Semibold" Icon="images/Captura1.JPG">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <materialDesign:ColorZone Mode="PrimaryMid" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Background="#FF1F8DE5">
+            <Grid>
+                <TextBlock Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22"/>
+                <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Text="On Break" VerticalAlignment="Center" FontSize="18"/>
+                    <materialDesign:PopupBox  Margin="10" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False">
+                        <StackPanel Width="150">
+                            <Button Content="Configuracion"/>
+                            <Button Content="Ayuda"/>
+                            <Separator/>
+                            <Button x:Name="ButtonPopUpSalir" Content="Cerrar Sesion" Click="ButtonPopUpSalir_Click"/>
+
+                        </StackPanel>
+
+                    </materialDesign:PopupBox>
+
+                </StackPanel>
+
+            </Grid>
+        </materialDesign:ColorZone>
+
+        <Grid HorizontalAlignment="Stretch" Grid.Row="1" Background="#FF1F8DE5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="326"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Background="White">
+                <Image Source="Images/Captura3.jpg "/>
+            </Grid>
+            <ScrollViewer HorizontalContentAlignment="Stretch" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Grid.Row="1" Margin="0,0,0,-125">
+                <StackPanel x:Name="Menu" Margin="10"/>
+
+            </ScrollViewer>
+
+        </Grid>
+        <StackPanel x:Name="StackPanelMain" Grid.Row="1" Grid.Column="1">
+            <Image Source="/Images/dark_logo_white_background.jpg" Height="522" />
+        </StackPanel>
+        
+    </Grid>
+</Window>

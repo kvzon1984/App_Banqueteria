@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="OnBreak_MDT_V._2.UserControlListarContratos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OnBreak_MDT_V._2"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="White">
+
+        <!--lista de contratos = Lc-->
+        <Label Content="Rut*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="63,30,0,0" RenderTransformOrigin="0.645,0.792"/>
+        <Label Content="Tipo de Evento" HorizontalAlignment="Left" Margin="54,84,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtRutLc" HorizontalAlignment="Left" Height="23" Margin="175,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <Label Content="N°Contrato" HorizontalAlignment="Left" Margin="390,30,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNroContrato" HorizontalAlignment="Left" Margin="487,26,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.026,-0.379" />
+        <ComboBox x:Name="cboTipoEvento" HorizontalAlignment="Left" Margin="199,80,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnActualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="487,87,0,0" VerticalAlignment="Top" Width="100" Click="btnActualizar_Click" />
+        <Rectangle HorizontalAlignment="Left" Height="167" Margin="587,160,0,0" VerticalAlignment="Top" Width="175">
+            <Rectangle.Fill>
+                <ImageBrush x:Name="imgListarContrato" ImageSource="/Images/dark_logo_white_background.jpg" />
+            </Rectangle.Fill>
+        </Rectangle>
+        <DataGrid x:Name="dgListaContratoLc" HorizontalAlignment="Left" Height="308" Margin="41,148,0,-6" VerticalAlignment="Top" Width="530" HorizontalScrollBarVisibility="Visible" IsReadOnly="True" MouseDoubleClick="dgListaContratoLc_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="N° Contrato" Binding="{Binding Numero}"/>
+                <DataGridTextColumn Header="Rut Cliente" Binding="{Binding RutCliente}"  />
+                <DataGridTextColumn Header="Modalidad" Binding="{Binding IdModalidad}"  />
+                <DataGridTextColumn Header="Tipo de Evento" Binding="{Binding IdTipoEvento}"  />
+                <DataGridTextColumn Header="Hora de Inicio" Binding="{Binding FechaHoraInicio}" />
+                <DataGridTextColumn Header="Hora de Termino" Binding="{Binding FechaHoraTermino}"  />
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btnImprimir" Content="Imprimir" HorizontalAlignment="Left" Margin="600,418,0,0" VerticalAlignment="Top" Width="142" Click="btnImprimir_Click"/>
+        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="600,87,0,0" VerticalAlignment="Top" Width="100" Click="btnEliminar_Click"/>
+        <Button x:Name="btnBuscar" Content="Buscar" HorizontalAlignment="Left" Margin="368,87,0,0" VerticalAlignment="Top" Width="100" Click="btnBuscar_Click" />
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="OnBreak_MDT_V._2.OpcionalListarContratos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnBreak_MDT_V._2"
+        mc:Ignorable="d"
+        Title="Lista de Contratos" Height="600" Width="600" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" FontFamily="Yu Gothic UI Semibold" Icon="images/Captura1.JPG" WindowStyle="ThreeDBorderWindow" Closed="Window_Closed">
+    <Grid>
+        <DataGrid x:Name="dgListaContratos" HorizontalAlignment="Left" Height="571" VerticalAlignment="Top" Width="594" HorizontalScrollBarVisibility="Visible" Background="#FFDEDEDE" MouseDoubleClick="dgListaContratos_MouseDoubleClick" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="N° Contrato" Binding="{Binding Numero}"/>
+                <DataGridTextColumn Header="Rut Cliente" Binding="{Binding RutCliente}"  />
+                <DataGridTextColumn Header="Modalidad" Binding="{Binding IdModalidad}"  />
+                <DataGridTextColumn Header="Tipo de Evento" Binding="{Binding IdTipoEvento}"  />
+                <DataGridTextColumn Header="Hora de Inicio" Binding="{Binding FechaHoraInicio}" />
+                <DataGridTextColumn Header="Hora de Termino" Binding="{Binding FechaHoraTermino}"  />
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
