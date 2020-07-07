@@ -25,7 +25,7 @@ namespace OnBreak_MDT_V._2
     public partial class UserControlCrearCliente : UserControl
     {
 
-       
+
         public UserControlCrearCliente()
         {
             InitializeComponent();
@@ -83,27 +83,40 @@ namespace OnBreak_MDT_V._2
                 IdTipoEmpresa = (int)cboTipoEmpresa.SelectedValue
             };
 
-            if (!guardarCliente.Read())
+            if (txtRutCli.Text.Length >= 8 && txtRutCli.Text.Length <= 9)
             {
-                if (guardarCliente.Create())
+
+
+
+                if (!guardarCliente.Read())
                 {
-                    MessageBox.Show("Cliente guardado correctamente", "Notificacion", MessageBoxButton.OK, MessageBoxImage.Information);
-                    LimpiarCliente();
+                    if (guardarCliente.Create())
+                    {
+                        MessageBox.Show("Cliente guardado correctamente", "Notificacion", MessageBoxButton.OK, MessageBoxImage.Information);
+                        LimpiarCliente();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se puede ejecutar lo solicitado", "Notificacion", MessageBoxButton.OK, MessageBoxImage.Error);
+                        LimpiarCliente();
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("No se puede ejecutar lo solicitado", "Notificacion", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Error el cliente ya existe", "Atencion", MessageBoxButton.OK, MessageBoxImage.Warning);
                     LimpiarCliente();
                 }
+
             }
             else
             {
-                MessageBox.Show("Error el cliente ya existe", "Atencion", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Ingrese Rut Valido", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 LimpiarCliente();
             }
-
-
         }
+
+
+
         // Funciona correctamente
         private void btnBuscar_Click(object sender, RoutedEventArgs e)
         {
@@ -147,17 +160,17 @@ namespace OnBreak_MDT_V._2
             {
 
                 actualizar.RutCliente = txtRutCli.Text;
-                actualizar.RazonSocial = txtRazonSocialCli.Text ;
+                actualizar.RazonSocial = txtRazonSocialCli.Text;
                 actualizar.NombreContacto = txtNombreContactoCli.Text;
                 actualizar.MailContacto = txtMailContactoCli.Text;
                 actualizar.Direccion = txtDireccionCli.Text;
                 actualizar.Telefono = txtTelefonoCli.Text;
                 actualizar.IdActividadEmpresa = cboTipoActividad.SelectedIndex;
                 actualizar.IdTipoEmpresa = cboTipoEmpresa.SelectedIndex;
-                 MessageBox.Show("Cliente Actualizado", "Informacion", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Cliente Actualizado", "Informacion", MessageBoxButton.OK, MessageBoxImage.Information);
                 LimpiarCliente();
 
-            } 
+            }
             else
             {
                 MessageBox.Show("Cliente no se puede Actualizar UPDATE", "Atecion", MessageBoxButton.OK, MessageBoxImage.Warning);
@@ -166,31 +179,34 @@ namespace OnBreak_MDT_V._2
 
 
         }
+
+        public Cliente cliGlobal;
         // Funciona correctamente pero aun se puede mejorar
         private void btnListar_Click(object sender, RoutedEventArgs e)
         {
+            Cliente cli = new Cliente();
             Opcional opcional = new Opcional();
-         
+            opcional.SetUserControl(this);
+
             opcional.Show();
-        }
-        // Funciona correctamente pero todavia se tiene que mejorar para 
-        // que funcione de forma automatica y no seleccionando un boton Actualizar
-        public void StearClase()
-        {
-            txtRutCli.Text = MyGlobals.rut;
-            txtRazonSocialCli.Text = MyGlobals.razon;
-            txtNombreContactoCli.Text = MyGlobals.contacto;
-            txtMailContactoCli.Text = MyGlobals.email;
-            txtDireccionCli.Text = MyGlobals.direccion;
-            txtTelefonoCli.Text = MyGlobals.telefono;
-            cboTipoActividad.SelectedIndex = MyGlobals.actividad;
-            cboTipoEmpresa.SelectedIndex = MyGlobals.empresa;   
-        }
-        private void btnActualizar_Click(object sender, RoutedEventArgs e)
-        {
-            StearClase();
+
         }
 
+        public void MostrarDatosCliente()
+        {
+            if (cliGlobal != null)
+            {
+                txtRutCli.Text = cliGlobal.RutCliente;
+                txtRazonSocialCli.Text = cliGlobal.RazonSocial;
+                txtNombreContactoCli.Text = cliGlobal.NombreContacto;
+                txtMailContactoCli.Text = cliGlobal.MailContacto;
+                txtDireccionCli.Text = cliGlobal.Direccion;
+                txtTelefonoCli.Text = cliGlobal.Telefono;
+                cboTipoActividad.SelectedIndex = cliGlobal.IdActividadEmpresa;
+                cboTipoEmpresa.SelectedIndex = cliGlobal.IdTipoEmpresa;
+            }
+        }
 
     }
+
 }

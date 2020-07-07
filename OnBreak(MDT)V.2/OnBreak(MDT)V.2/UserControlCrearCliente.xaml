@@ -34,7 +34,6 @@
                 <ImageBrush x:Name="imgCrearCliente" ImageSource="/Images/dark_logo_white_background.jpg" />
             </Rectangle.Fill>
         </Rectangle>
-        <Button x:Name="btnActualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="428,218,0,0" VerticalAlignment="Top" Width="103" Click="btnActualizar_Click" Background="#FF673AB7" BorderBrush="#FF673AB7"/>
 
     </Grid>
 </UserControl>

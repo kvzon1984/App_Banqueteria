@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using OnBreak.Negocio;
 using MaterialDesignThemes.Wpf;
 using System.Diagnostics;
+using System.Windows.Markup;
 
 namespace OnBreak_MDT_V._2
 {
@@ -35,37 +36,38 @@ namespace OnBreak_MDT_V._2
 
         }
 
+        public Cliente cli { get; private set; }
 
 
         // Funciona correctamente el metodo para poder extrar una fila desde el data grid
         public void dgListarCliente_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            
-            
-           
+
             Cliente cliente = dgListarCliente.SelectedItem as Cliente;
+            if (cliente != null)
+            {
+                this.cli = cliente;
+                reference.cliGlobal = cli;
+            }
 
-            
-            MyGlobals.rut= cliente.RutCliente;
-            MyGlobals.razon = cliente.RazonSocial;
-            MyGlobals.contacto = cliente.NombreContacto;
-            MyGlobals.email = cliente.MailContacto;
-            MyGlobals.direccion = cliente.Direccion;
-            MyGlobals.telefono = cliente.Telefono;
-            MyGlobals.actividad = cliente.IdActividadEmpresa;
-            MyGlobals.empresa = cliente.IdTipoEmpresa;
+            reference.MostrarDatosCliente();
 
-
-            Close();
+            this.Close();
 
         }
-
 
         // Funciona correctamente pero siento que no es necesario falta modificar 
         private void Window_Closed(object sender, EventArgs e)
         {
-            
+            reference.MostrarDatosCliente();
             Close();
+        }
+
+        UserControlCrearCliente reference;
+
+        internal void SetUserControl(UserControlCrearCliente win)
+        {
+            this.reference = win;
         }
     }
 

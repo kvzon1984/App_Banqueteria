@@ -28,3 +28,32 @@ C:\Users\Nicolas Zuñiga\source\repos\OnBreak(MDT)V.2\OnBreak.Datos\obj\Debug\On
 C:\Users\Nicolas Zuñiga\source\repos\OnBreak(MDT)V.2\OnBreak.Datos\obj\Debug\OnBreak.Datos.dll
 C:\Users\Nicolas Zuñiga\source\repos\OnBreak(MDT)V.2\OnBreak.Datos\obj\Debug\OnBreak.Datos.pdb
 C:\Users\Nicolas Zuñiga\source\repos\OnBreak(MDT)V.2\OnBreak.Datos\obj\Debug\OnBreak.Datos.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\OnBreakDB.mdf
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\OnBreakDB_log.ldf
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\OnBreak.Datos.dll.config
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\OnBreak.Datos.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\OnBreak.Datos.pdb
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\obj\Debug\OnBreak.Datos.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\obj\Debug\OnBreak.Datos.csproj.CopyComplete
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\obj\Debug\OnBreak.Datos.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Datos\obj\Debug\OnBreak.Datos.pdb

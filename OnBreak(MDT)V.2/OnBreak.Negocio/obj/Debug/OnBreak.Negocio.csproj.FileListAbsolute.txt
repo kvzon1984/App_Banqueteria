@@ -31,3 +31,36 @@ C:\Users\Nicolas Zuñiga\source\repos\OnBreak(MDT)V.2\OnBreak.Negocio\obj\Debug\
 C:\Users\Nicolas Zuñiga\source\repos\OnBreak(MDT)V.2\OnBreak.Negocio\obj\Debug\OnBreak.Negocio.csproj.CopyComplete
 C:\Users\Nicolas Zuñiga\source\repos\OnBreak(MDT)V.2\OnBreak.Negocio\obj\Debug\OnBreak.Negocio.dll
 C:\Users\Nicolas Zuñiga\source\repos\OnBreak(MDT)V.2\OnBreak.Negocio\obj\Debug\OnBreak.Negocio.pdb
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\OnBreakDB.mdf
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\OnBreakDB_log.ldf
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\OnBreak.Negocio.dll.config
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\OnBreak.Negocio.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\OnBreak.Negocio.pdb
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\OnBreak.Datos.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\OnBreak.Datos.pdb
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\OnBreak.Datos.dll.config
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\obj\Debug\OnBreak.Negocio.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\obj\Debug\OnBreak.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\obj\Debug\OnBreak.Negocio.csproj.CopyComplete
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\obj\Debug\OnBreak.Negocio.dll
+C:\Users\PC\Desktop\Proyectos\App_Banqueteria\OnBreak(MDT)V.2\OnBreak.Negocio\obj\Debug\OnBreak.Negocio.pdb
